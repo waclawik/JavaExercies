@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1fd601d-a60c-44ab-8a80-d2e5483b881f" name="Changes" comment="Serialization and some methods">
-      <change afterPath="$PROJECT_DIR$/Test/tests/KontoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/tests/WlascicielTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cwiczenia3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Cwiczenia3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/Konto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lokata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/Lokata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Okres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/Okres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Oprocentowalny.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/Oprocentowalny.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wlasciciel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/Wlasciciel.java" afterDir="false" />
+    <list default="true" id="f1fd601d-a60c-44ab-8a80-d2e5483b881f" name="Changes" comment="Tests">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743431911497</updated>
-      <workItem from="1743431913685" duration="2492000" />
+      <workItem from="1743431913685" duration="4210000" />
     </task>
     <task id="LOCAL-00001" summary="Java practice">
       <option name="closed" value="true" />
@@ -108,7 +99,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743432793577</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tests">
+      <option name="closed" value="true" />
+      <created>1743434600290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743434600290</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Tests">
+      <option name="closed" value="true" />
+      <created>1743434658698</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743434658698</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Java practice" />
     <MESSAGE value="Serialization and some methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Serialization and some methods" />
+    <MESSAGE value="Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests" />
   </component>
 </project>
