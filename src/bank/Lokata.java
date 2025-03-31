@@ -1,3 +1,5 @@
+package bank;
+
 import java.io.Serializable;
 
 public class Lokata extends Konto implements Oprocentowalny, Serializable {
@@ -22,5 +24,5 @@ public class Lokata extends Konto implements Oprocentowalny, Serializable {
     }
 
     @Override
-    public String toString() { return super.toString() + ", Lokata: " + okres; }
+    public String toString() { return super.toString() + ", bank.Lokata: " + okres; }
 }

@@ -1,3 +1,5 @@
+package bank;
+
 import java.io.*;
 import java.util.*;
 
@@ -52,7 +54,7 @@ public class Bank implements Serializable {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder("Bank: " + nazwa + "\n");
+        StringBuilder sb = new StringBuilder("bank.Bank: " + nazwa + "\n");
         for (Konto k : konta) sb.append(k).append("\n");
         return sb.toString();
     }

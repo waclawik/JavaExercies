@@ -1,3 +1,5 @@
+package bank;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -12,7 +14,7 @@ public class Main {
 
     public static void Test1()
     {
-        System.out.println("=== Test: Wlasciciel ===");
+        System.out.println("=== Test: bank.Wlasciciel ===");
         try {
             Wlasciciel w1 = new Wlasciciel("Jan Kowalski", "Lipowa 12", "01-234", "Warszawa");
             System.out.println("Poprawnie utworzony właściciel: " + w1);
@@ -29,7 +31,7 @@ public class Main {
 
     public static void Test2()
     {
-        System.out.println("\n=== Test: Konto ===");
+        System.out.println("\n=== Test: bank.Konto ===");
         Wlasciciel wlasciciel = new Wlasciciel("Adam Malysz", "Skoczków 10", "43-400", "Wisla");
         Konto konto = new Konto(wlasciciel);
 
@@ -53,8 +55,8 @@ public class Main {
 
     public static void Test3()
     {
-        System.out.println("\n=== Test: Bank ===");
-        Bank bank = new Bank("Mój Bank");
+        System.out.println("\n=== Test: bank.Bank ===");
+        Bank bank = new Bank("Mój bank.Bank");
 
         Konto k1 = new Konto(new Wlasciciel("Ela", "Spacerowa 1", "00-001", "Warszawa"));
         Konto k2 = new Konto(new Wlasciciel("Franek", "Zielona 2", "11-111", "Gdańsk"));
@@ -65,8 +67,8 @@ public class Main {
         bank.utworzKonto(k1);
         bank.utworzKonto(k2);
 
-        System.out.println("Konto o nr: " + k1.getNumerKonta() + " => " + bank.podajKonto(k1.getNumerKonta()));
-        System.out.println("Konto właściciela 'Ela': " + bank.podajKonto("Ela"));
+        System.out.println("bank.Konto o nr: " + k1.getNumerKonta() + " => " + bank.podajKonto(k1.getNumerKonta()));
+        System.out.println("bank.Konto właściciela 'Ela': " + bank.podajKonto("Ela"));
 
         System.out.println("Saldo banku: " + bank.saldoBanku() + " zł");
 
@@ -77,7 +79,7 @@ public class Main {
 
     public static void Test4()
     {
-        System.out.println("\n=== Test: Lokata ===");
+        System.out.println("\n=== Test: bank.Lokata ===");
         Wlasciciel wlascLok = new Wlasciciel("Zenon", "Lokacyjna 8", "44-555", "Katowice");
         Lokata lokata = new Lokata(wlascLok, Okres.TRZYMIESIECZNA);
         lokata.wplac(2000);

@@ -1,11 +1,22 @@
+package bank;
 import java.util.regex.*;
 
+/**
+ * Klasa reprezentuje właściciela konta bankowego
+ */
 public class Wlasciciel {
     private String nazwa;
     private String ulica;
     private String kod;
     private String miejscowosc;
 
+    /**
+     * Konstruktor właściciela konta.
+     * @param nazwa nazwa właściciela
+     * @param ulica ulica
+     * @param kod kod pocztowy w formacie XX-XXX
+     * @param miejscowosc miejscowość
+     */
     public Wlasciciel(String nazwa, String ulica, String kod, String miejscowosc) {
         setNazwa(nazwa);
         setUlica(ulica);
@@ -13,10 +24,19 @@ public class Wlasciciel {
         setMiejscowosc(miejscowosc);
     }
 
+    /**
+     * Zwraca nazwę właściciela.
+     * @return nazwa
+     */
     public String getNazwa() {
         return nazwa;
     }
 
+    /**
+     * Ustawia nazwę właściciela.
+     * @param nazwa nowa nazwa
+     * @throws IllegalArgumentException jeśli nazwa ma mniej niż 3 znaki
+     */
     public void setNazwa(String nazwa) {
         if (nazwa == null || nazwa.length() < 3)
             throw new IllegalArgumentException("Nazwa musi mieć co najmniej 3 znaki");
