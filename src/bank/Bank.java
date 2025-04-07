@@ -51,6 +51,10 @@ public class Bank implements Serializable {
             return (Bank) ois.readObject();
         }
     }
+    public List<Konto> getKonta() {
+        return konta;
+    }
+
 
     @Override
     public String toString() {
